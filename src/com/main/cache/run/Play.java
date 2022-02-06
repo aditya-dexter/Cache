@@ -13,9 +13,9 @@ public class Play {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Select cache type..");
         System.out.println("1. Least Recently Used (LRU)");
-        System.out.println("2. Least Recently Used (MRU)");
-        System.out.println("3. Least Recently Used (LFU)");
-        System.out.println("4. Least Recently Used (MFU)");
+        System.out.println("2. Most Recently Used (MRU)");
+        System.out.println("3. Least Frequently Used (LFU)");
+        System.out.println("4. Most Frequently Used (MFU)");
         System.out.println("9. To execute all JUnits");
 
         int code = scanner.nextInt();
