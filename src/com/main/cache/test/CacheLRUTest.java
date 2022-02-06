@@ -6,7 +6,6 @@ import com.main.cache.util.Util;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.MethodRule;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 
