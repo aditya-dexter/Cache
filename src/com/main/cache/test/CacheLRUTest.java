@@ -2,6 +2,7 @@ package com.main.cache.test;
 
 import com.main.cache.Cache;
 import com.main.cache.EvictionPolicy;
+import com.main.cache.util.Util;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
@@ -15,12 +16,12 @@ public class CacheLRUTest {
     public TestWatcher watchman= new TestWatcher() {
         @Override
         protected void starting(Description description) {
-            System.err.println("Starting > " + description.getTestClass().getSimpleName() + "." + description.getMethodName());
+            Util.logStartingTestCase(description);
         }
 
         @Override
         protected void finished(Description description) {
-            System.err.println("Finished > " + description.getTestClass().getSimpleName() + "." + description.getMethodName());
+            Util.logFinishedTestCase(description);
         }
     };
 
