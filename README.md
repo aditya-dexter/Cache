@@ -1,10 +1,13 @@
 
 A cache that supports cache for various eviction policies
 
-Least Recently Used (LRU)
-Least Recently Used (MRU)
-Least Recently Used (LFU)
-Least Recently Used (MFU)
+-> Least Recently Used (LRU)
+
+-> Least Recently Used (MRU)
+
+-> Least Recently Used (LFU)
+
+-> Least Recently Used (MFU)
 
 
 
